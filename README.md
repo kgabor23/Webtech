@@ -3,7 +3,7 @@
 ## Milyen típusokat/entitásokat kezel az alkalmazás?
 
 Az alkalmazás a következő fő entitásokat kezeli:
-- **Invoice (Számla):** A vásárlások adatait tartalmazza, például vásárló neve, posztolási dátum, határidő, tételszám, megjegyzés és ár.
+- **Invoice (Számla):** A vásárlások adatait tartalmazza, például vásárló neve, kiállítási dátum, határidő, tételszám, megjegyzés és ár.
 - **User (Felhasználó):** Az alkalmazásba bejelentkezhetnek a felhasználók különböző szerepkörökkel.
 - **Role (Szerepkör):** A felhasználók jogosultságait határozza meg (Admin, Könyvelő, Felhasználó).
 
@@ -36,17 +36,7 @@ Az alkalmazás a következő technológiákat használja:
 
 ## Autentikáció
 
-Az alkalmazás nem használ autentikációt.
-
-## Fejlesztési környezet konfigurációja
-
-Az alkalmazás konfigurációja a következő beállításokat tartalmazza:
-- **Adatbázis elérhetőség:**
-  - URL: `jdbc:postgresql://localhost:5433/invoice`
-  - Felhasználónév: `postgres`
-  - Jelszó: `admin`
-- **Adatbázis kezelés:** `spring.jpa.hibernate.ddl-auto=update`.
-- **Statisztikus tartalom útvonala:** `/static/**`.
+Az alkalmazás autentikációját a backend végzi.
 
 ## Fájlstruktúra
 
