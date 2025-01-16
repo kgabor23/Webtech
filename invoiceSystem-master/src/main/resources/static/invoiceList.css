@@ -1,0 +1,73 @@
+td {
+    width: 15%;
+    text-align: center;
+    padding: 0.75em;
+    font-size: 14px;
+    color: #333;
+}
+
+div {
+    margin: 2em 0;
+}
+
+#main {
+    width: 85%;
+    border: 2px solid #4CAF50;
+    padding: 2em;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead tr {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody tr {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+td:hover {
+    background-color: #e9f7e9;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
