@@ -26,7 +26,7 @@ Az adatbázis három táblát tartalmaz, amelyek között kapcsolatok találhat�
 ## Használt technológiák
 
 Az alkalmazás a következő technológiákat használja:
-- **Programozási nyelv:** Java (17-es verzió).
+- **Programozási nyelv:** Java.
 - **Framework:** Spring Boot 3.1.4.
 - **Frontend:** Thymeleaf sablonmotor HTML5 támogatással.
 - **Adatbázis:** PostgreSQL 42.7.5 verzió.
