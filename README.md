@@ -1,6 +1,6 @@
 # Invoice Kezelő Alkalmazás
 
-##Prezentáció felvételének elérési linkje:
+Prezentáció felvételének elérési linkje:
 -https://drive.google.com/file/d/1XvURYVzN2vdonfp90xuOzxanMuvmii5F/view?usp=drive_link
 
 ## Milyen típusokat/entitásokat kezel az alkalmazás?
